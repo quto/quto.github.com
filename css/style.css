@@ -53,7 +53,7 @@ body { font: 12px Arial,Helvetica,sans-serif; color: #292829; line-height: 18px;
 .weather .temperature { line-height: 15px; font-size: 13px; } 
 
 /* 每日投递 */
-.delivery-bar { min-height: 300px; background:#335B81 url(../images/bg-grid.png); } 
+.delivery-bar { background:#335B81 url(../images/bg-grid.png); overflow: hidden; } 
 .delivery-bar .bar-top { height: 90px; background:#f7f8f8 url(../images/grid-top.png) repeat-x 0 20px; } 
 .delivery-bar .bar-top .btn-subscribe { background: url(../images/subscribe.png) no-repeat 0 0; width: 100px; height: 80px; margin: auto; color: #292829; font-size: 18px; text-align: center; display: block; text-indent: -9999em; overflow: hidden; } 
 .delivery-bar .bar-top .btn-subscribe:hover { background-position: 0 -80px; } 
@@ -80,3 +80,5 @@ body { font: 12px Arial,Helvetica,sans-serif; color: #292829; line-height: 18px;
 .commonly h2 { font-size: 18px; line-height: 1.2; padding-bottom: 20px; } 
 .commonly-grid li { float: left; margin: 0 20px 15px 0; *display: inline; border: 1px solid #eee; } 
 .commonly-grid li a { display: block; width: 138px; height: 80px; background-position: center center; background-repeat: no-repeat; background-size: 138px 138px; text-indent: -999px; overflow: hidden; } 
+
+.delivery-close { height: 90px; margin-bottom: 20px; } 
