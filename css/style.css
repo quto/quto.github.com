@@ -82,3 +82,19 @@ body { font: 12px Arial,Helvetica,sans-serif; color: #292829; line-height: 18px;
 .commonly-grid li a { display: block; width: 138px; height: 80px; background-position: center center; background-repeat: no-repeat; background-size: 138px 138px; text-indent: -999px; overflow: hidden; } 
 
 .delivery-close { height: 90px; margin-bottom: 20px; } 
+
+/* 全部网址列表页 */
+.mt10 { margin-top: 10px; } 
+body.all { background:#f2f2f2 url(../images/bg-grid.png); } 
+body.all #header { margin-bottom: 20px; background: none; } 
+body.all #header .hd { width: 1000px; } 
+.st-wrapper { width: 1000px; margin: 0 auto; }   
+#allsites { width: 998px; border: 1px solid #c9c9c9; background-color: #fff; font-size: 14px; } 
+.site-mod { width: 998px; min-height: 166px; border-bottom: 1px dotted #999999; } 
+.site-mod .title { background-color: #F8F8F8; position: relative; width: 110px; float: left; height: 166px; line-height: 166px; text-align: center; } 
+.site-mod .hot-item { float: left; width: 219px; height: 73px; border-right: 1px dotted #e5e5e5; overflow: hidden; } 
+.site-mod .hot-item.last { border-right: none; } 
+.site-mod .hot-item .website { display: block; min-height: 63px; padding: 10px 15px 0; } 
+.site-mod .hot-item .website:hover { background-color: #f9fafc; text-decoration: none; } 
+.site-mod .hot-item .name { display: block; padding-left: 13px; line-height: 21px; } 
+.site-mod .hot-item .description { margin-top: 5px; color: #a8a8a8; line-height: 1.5; font-size: 12px; } 
