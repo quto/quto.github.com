@@ -94,7 +94,8 @@ body.all #header .hd { width: 1000px; }
 .site-mod .title { background-color: #F8F8F8; position: relative; width: 110px; float: left; height: 166px; line-height: 166px; text-align: center; } 
 .site-mod .hot-item { float: left; width: 219px; height: 73px; border-right: 1px dotted #e5e5e5; overflow: hidden; } 
 .site-mod .hot-item.last { border-right: none; } 
-.site-mod .hot-item .website { display: block; min-height: 63px; padding: 10px 15px 0; } 
+.site-mod .hot-item .website { display: block; min-height: 63px; padding: 10px 15px 0; color: #0da4d3; } 
 .site-mod .hot-item .website:hover { background-color: #f9fafc; text-decoration: none; } 
 .site-mod .hot-item .name { display: block; padding-left: 13px; line-height: 21px; } 
 .site-mod .hot-item .description { margin-top: 5px; color: #a8a8a8; line-height: 1.5; font-size: 12px; } 
+.site-mod .hot-item .website:hover .description { color: #666; } 
